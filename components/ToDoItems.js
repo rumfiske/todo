@@ -281,7 +281,7 @@ function ToDoItems() {
         </div>
       </div>
       {/* Liste over alle todos */}
-      <div className="bg-white px-4 py-5 border-b border-gray-200 sm:px-6 max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="bg-white px-4 py-5 border-b border-gray-200 sm:px-6 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         {savedTasks?.length > 0 ? (
           savedTasks
             .map((currentTask, index) => (
